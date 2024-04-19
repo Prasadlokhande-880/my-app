@@ -1,0 +1,51 @@
+.mar {
+  margin-top: 150px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-icon {
+  position: relative;
+  top: -50px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.profile-img {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+
+.profile-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  flex: 1 1 auto;
+}
+
+.profile-name {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-description {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.button{
+  cursor: pointer;
+}

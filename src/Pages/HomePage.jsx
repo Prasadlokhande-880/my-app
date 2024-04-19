@@ -17,7 +17,6 @@ const HomePage = () => {
       <MySkills />
       <MyPortfolio />
       <Testimonial />
-      <ContactMe />
       <Footer />
     </div>
   );

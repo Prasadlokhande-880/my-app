@@ -1,3 +1,4 @@
+import img1 from "./good-advice-from-beautiful-woman.jpg";
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -17,7 +18,7 @@ export default function HeroSection() {
         <button className="btn btn-primary">Watch My Courses</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src={img1} alt="Hero Section" />
       </div>
     </section>
   );

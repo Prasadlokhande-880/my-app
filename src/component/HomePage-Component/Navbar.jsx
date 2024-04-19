@@ -58,16 +58,13 @@ function Navbar() {
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/profile">Portfolio list</a>
+            <a href="/profilelist">Portfolio list</a>
           </li>
           <li>
             <a href="/contact">Contact me</a>
-          </li>
-          <li>
-            <a href="/course">Course's</a>
           </li>
         </ul>
       </div>
@@ -81,9 +78,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
         href="/login"
-      >
-        Logout
-      </a>
+      ></a>
     </nav>
   );
 }
